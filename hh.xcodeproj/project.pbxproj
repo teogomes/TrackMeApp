@@ -46,7 +46,7 @@
 		9D3F45202272A3A7152A4361 /* Pods-hhUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hhUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hhUITests/Pods-hhUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A49C1C9C1A6D254F9FE40918 /* Pods_hh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C12DCCAD20F7E971008E0DA2 /* swiftGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftGif.swift; sourceTree = "<group>"; };
-		C12DCCB320F7EE18008E0DA2 /* heartbeat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = heartbeat.gif; path = ../../../Downloads/heartbeat.gif; sourceTree = "<group>"; };
+		C12DCCB320F7EE18008E0DA2 /* heartbeat.gif */ = {isa = PBXFileReference; explicitFileType = image.gif; name = heartbeat.gif; path = ../../../Downloads/heartbeat.gif; sourceTree = "<group>"; };
 		C131B9B620F77ECB00D4405C /* hh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C131B9B920F77ECB00D4405C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C131B9BB20F77ECB00D4405C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
