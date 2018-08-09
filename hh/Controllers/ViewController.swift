@@ -285,7 +285,6 @@ class ViewController: UIViewController , CLLocationManagerDelegate {
         var circleColors: [NSUIColor] = []
         
         for i in 0..<numbers.count {
-            print(Double(i))
             let value = ChartDataEntry(x: Double(i), y: Double(numbers[i]))
             lineChartEntry.append(value)
     

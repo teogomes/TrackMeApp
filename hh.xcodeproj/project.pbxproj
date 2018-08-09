@@ -20,6 +20,7 @@
 		C131B9CF20F77ECC00D4405C /* hhTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C131B9CE20F77ECC00D4405C /* hhTests.swift */; };
 		C131B9DA20F77ECC00D4405C /* hhUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C131B9D920F77ECC00D4405C /* hhUITests.swift */; };
 		C131B9F020F7AA2000D4405C /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C131B9EF20F7AA2000D4405C /* HealthKit.framework */; };
+		C1F2FA57211C633F006CD3FC /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F2FA56211C633F006CD3FC /* mapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		C131B9DB20F77ECC00D4405C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C131B9EE20F7AA2000D4405C /* hh.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hh.entitlements; sourceTree = "<group>"; };
 		C131B9EF20F7AA2000D4405C /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		C1F2FA56211C633F006CD3FC /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
 		DFEDAB960233072A3F59CD20 /* Pods-hh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hh/Pods-hh.debug.xcconfig"; sourceTree = "<group>"; };
 		E6FA9B67B58F8278E4009829 /* Pods-hhUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hhUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hhUITests/Pods-hhUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EA3D106D65C4BB2A760E38DE /* Pods_hhUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hhUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -181,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				C131B9BB20F77ECB00D4405C /* ViewController.swift */,
+				C1F2FA56211C633F006CD3FC /* mapViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -408,6 +411,7 @@
 				C131B9BC20F77ECB00D4405C /* ViewController.swift in Sources */,
 				C131B9BA20F77ECB00D4405C /* AppDelegate.swift in Sources */,
 				C12DCCAE20F7E971008E0DA2 /* swiftGif.swift in Sources */,
+				C1F2FA57211C633F006CD3FC /* mapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
