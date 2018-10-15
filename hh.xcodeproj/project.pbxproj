@@ -11,7 +11,6 @@
 		6DE5BC06263A0CA29B08492D /* Pods_hhUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3D106D65C4BB2A760E38DE /* Pods_hhUITests.framework */; };
 		B2DCCAA39C76EB809F68CB9C /* Pods_hhTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1120EB60429ED2BD0C1873F /* Pods_hhTests.framework */; };
 		C12DCCAE20F7E971008E0DA2 /* swiftGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12DCCAD20F7E971008E0DA2 /* swiftGif.swift */; };
-		C12DCCB420F7EE18008E0DA2 /* heartbeat.gif in Resources */ = {isa = PBXBuildFile; fileRef = C12DCCB320F7EE18008E0DA2 /* heartbeat.gif */; };
 		C131B9BA20F77ECB00D4405C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C131B9B920F77ECB00D4405C /* AppDelegate.swift */; };
 		C131B9BC20F77ECB00D4405C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C131B9BB20F77ECB00D4405C /* ViewController.swift */; };
 		C131B9BF20F77ECB00D4405C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C131B9BD20F77ECB00D4405C /* Main.storyboard */; };
@@ -20,6 +19,12 @@
 		C131B9CF20F77ECC00D4405C /* hhTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C131B9CE20F77ECC00D4405C /* hhTests.swift */; };
 		C131B9DA20F77ECC00D4405C /* hhUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C131B9D920F77ECC00D4405C /* hhUITests.swift */; };
 		C131B9F020F7AA2000D4405C /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C131B9EF20F7AA2000D4405C /* HealthKit.framework */; };
+		C17C6C2E216B4A0600678A0F /* heartbeat.gif in Resources */ = {isa = PBXBuildFile; fileRef = C17C6C2D216B4A0600678A0F /* heartbeat.gif */; };
+		C1837375213DE9C300B1085C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1837374213DE9C300B1085C /* SettingsViewController.swift */; };
+		C1837377213DF48800B1085C /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1837376213DF48800B1085C /* RoundButton.swift */; };
+		C19EB8F3211E013C00A9CD60 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C19EB8F2211E013B00A9CD60 /* GoogleService-Info.plist */; };
+		C1AD54C0213D58A80094B329 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AD54BF213D58A80094B329 /* LoginViewController.swift */; };
+		C1E434562165678600C6B39E /* infoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E434552165678600C6B39E /* infoViewController.swift */; };
 		C1F2FA57211C633F006CD3FC /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F2FA56211C633F006CD3FC /* mapViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,7 +52,6 @@
 		9D3F45202272A3A7152A4361 /* Pods-hhUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hhUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hhUITests/Pods-hhUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A49C1C9C1A6D254F9FE40918 /* Pods_hh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C12DCCAD20F7E971008E0DA2 /* swiftGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftGif.swift; sourceTree = "<group>"; };
-		C12DCCB320F7EE18008E0DA2 /* heartbeat.gif */ = {isa = PBXFileReference; explicitFileType = image.gif; name = heartbeat.gif; path = ../../../Downloads/heartbeat.gif; sourceTree = "<group>"; };
 		C131B9B620F77ECB00D4405C /* hh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C131B9B920F77ECB00D4405C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C131B9BB20F77ECB00D4405C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +67,12 @@
 		C131B9DB20F77ECC00D4405C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C131B9EE20F7AA2000D4405C /* hh.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hh.entitlements; sourceTree = "<group>"; };
 		C131B9EF20F7AA2000D4405C /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		C17C6C2D216B4A0600678A0F /* heartbeat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = heartbeat.gif; sourceTree = "<group>"; };
+		C1837374213DE9C300B1085C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C1837376213DF48800B1085C /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		C19EB8F2211E013B00A9CD60 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C1AD54BF213D58A80094B329 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C1E434552165678600C6B39E /* infoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoViewController.swift; sourceTree = "<group>"; };
 		C1F2FA56211C633F006CD3FC /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
 		DFEDAB960233072A3F59CD20 /* Pods-hh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hh/Pods-hh.debug.xcconfig"; sourceTree = "<group>"; };
 		E6FA9B67B58F8278E4009829 /* Pods-hhUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hhUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hhUITests/Pods-hhUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -142,10 +152,12 @@
 				C131B9B920F77ECB00D4405C /* AppDelegate.swift */,
 				C131B9BD20F77ECB00D4405C /* Main.storyboard */,
 				C131B9C020F77ECC00D4405C /* Assets.xcassets */,
-				C12DCCB320F7EE18008E0DA2 /* heartbeat.gif */,
+				C17C6C2D216B4A0600678A0F /* heartbeat.gif */,
 				C131B9C220F77ECC00D4405C /* LaunchScreen.storyboard */,
 				C131B9C520F77ECC00D4405C /* Info.plist */,
 				C12DCCAD20F7E971008E0DA2 /* swiftGif.swift */,
+				C1837376213DF48800B1085C /* RoundButton.swift */,
+				C19EB8F2211E013B00A9CD60 /* GoogleService-Info.plist */,
 			);
 			path = hh;
 			sourceTree = "<group>";
@@ -182,8 +194,11 @@
 		C131B9EB20F7897D00D4405C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C1AD54BF213D58A80094B329 /* LoginViewController.swift */,
 				C131B9BB20F77ECB00D4405C /* ViewController.swift */,
 				C1F2FA56211C633F006CD3FC /* mapViewController.swift */,
+				C1837374213DE9C300B1085C /* SettingsViewController.swift */,
+				C1E434552165678600C6B39E /* infoViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -264,6 +279,9 @@
 							com.apple.HealthKit = {
 								enabled = 1;
 							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
 						};
 					};
 					C131B9C920F77ECC00D4405C = {
@@ -301,10 +319,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C19EB8F3211E013C00A9CD60 /* GoogleService-Info.plist in Resources */,
 				C131B9C420F77ECC00D4405C /* LaunchScreen.storyboard in Resources */,
-				C12DCCB420F7EE18008E0DA2 /* heartbeat.gif in Resources */,
 				C131B9C120F77ECC00D4405C /* Assets.xcassets in Resources */,
 				C131B9BF20F77ECB00D4405C /* Main.storyboard in Resources */,
+				C17C6C2E216B4A0600678A0F /* heartbeat.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,14 +406,30 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-hh/Pods-hh-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -410,8 +445,12 @@
 			files = (
 				C131B9BC20F77ECB00D4405C /* ViewController.swift in Sources */,
 				C131B9BA20F77ECB00D4405C /* AppDelegate.swift in Sources */,
+				C1837377213DF48800B1085C /* RoundButton.swift in Sources */,
 				C12DCCAE20F7E971008E0DA2 /* swiftGif.swift in Sources */,
+				C1AD54C0213D58A80094B329 /* LoginViewController.swift in Sources */,
 				C1F2FA57211C633F006CD3FC /* mapViewController.swift in Sources */,
+				C1E434562165678600C6B39E /* infoViewController.swift in Sources */,
+				C1837375213DE9C300B1085C /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
